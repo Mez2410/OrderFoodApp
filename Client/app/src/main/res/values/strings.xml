@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Order Food App</string>
+    <string name="txtSign"><u>Đăng kí Nhân viên</u></string>
+    <string name="txtBackToLogin"><u>Quay về Đăng nhập</u></string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Đăng nhập</string>
+    <string name="edt_employee_code">Nhập ID</string>
+    <string name="edt_last_first_name">Họ và tên</string>
+    <string name="edt_user_name">Nhập Username</string>
+    <string name="edtPassword">Nhập Password</string>
+    <string name="edtConfirmPass">Nhập lại Password</string>
+    <string name="txtPosition">Vị trí: </string>
+    <string name="btnRegister">Đăng kí</string>
+    <string name="txtNoticePass">Password phải tối thiểu là 6 kí tự!!!</string>
+    <string-array name="planets_array">
+        <item>Chef</item>
+        <item>Employee</item>
+    </string-array>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="menu">Thực Đơn</string>
+    <string name="history">Lịch Sử</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="logout">Đăng Xuất</string>
+    <string name="vph">Vũ Phi Hùng</string>
+    <string name="twenty_four">24</string>
+    <string name="name_restaurant">Mezcal Restaurant</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="number_table">1</string>
+    <string name="order">Order</string>
+    <string name="pay">Pay</string>
+    <string name="name_food">Tên Món Ăn</string>
+    <string name="cost_food">100000</string>
+    <string name="quantum_food">1</string>
+    <string name="quantum">Số lượng: </string>
+    <!--<string-array name="dv_drink_array">-->
+    <!--<item>Lon</item>-->
+    <!--<item>Chai</item>-->
+    <!--<item>Lốc</item>-->
+    <!--<item>Thùng</item>-->
+    <!--<item>Két</item>-->
+    <!--</string-array>-->
+    <string name="name_item_trang_chu">Menu</string>
+    <string name="app_label">Order</string>
+    <string name="search_hint">Search Food</string>
+    <string name="btn_minus_food_dialog">-</string>
+    <string name="btn_plus_food_dialog">+</string>
+    <string name="btn_add_food_dialog">Add</string>
+    <string name="btn_send_chef">Send To Chef</string>
+    <string name="btn_send_food_item">Cook</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+</resources>

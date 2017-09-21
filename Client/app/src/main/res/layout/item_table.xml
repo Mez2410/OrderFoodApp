@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_height="@dimen/lo_width_height_img_ac_kitchen"
+        android:layout_width="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/txtNumTable"
+            android:text="@string/number_table"
+            android:textStyle="bold"
+            android:gravity="center|top"
+            android:textColor="#6a30d4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imgTable"
+            android:src="@drawable/table_icon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/width_height_img_cv_home_ac"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgTable"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_weight="1"
+                android:background="@color/color_green"
+                android:text="@string/order"
+                android:textSize="@dimen/txt_size_btn_item_tab"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:layout_marginRight="@dimen/lo_margin_left_right_cus_dia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/lo_margin_left_right_cus_dia"
+                android:layout_weight="1"
+                android:background="@color/color_green"
+                android:text="@string/pay"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_btn_item_tab"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

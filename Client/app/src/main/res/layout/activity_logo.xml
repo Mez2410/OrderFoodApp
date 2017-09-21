@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.vuphi.orderfoodapp.LogoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/lo_width_img_ac_logo"
+        android:layout_height="@dimen/lo_height_img_ac_logo"
+        android:src="@drawable/image_chef"
+        android:layout_below="@+id/txtLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_img_ac_logo"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogo"
+        android:layout_marginLeft="@dimen/eight_dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="@dimen/eight_dp"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/txt_size_ac_logo"
+        android:textStyle="bold"
+        android:text="Order Food"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/margin_top_img_ac_logo"
+        android:layout_marginLeft="@dimen/eight_dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="@dimen/eight_dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"/>
+
+    <TextView
+        android:id="@+id/txtTieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APPLICATION FOR RESTAURANT"
+        android:textSize="@dimen/txt_size_tieu_de_ac_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_txt_ac_logo"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginLeft="@dimen/eight_dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="@dimen/eight_dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"/>
+
+</android.support.constraint.ConstraintLayout>

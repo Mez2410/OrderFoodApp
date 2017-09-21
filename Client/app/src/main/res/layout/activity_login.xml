@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context="com.example.vuphi.loginregister.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="@dimen/lo_width_height_img_login"
+        android:layout_height="@dimen/lo_width_height_img_login"
+        app:srcCompat="@drawable/image_login"
+        android:layout_marginTop="@dimen/margin_top_login"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnLogin"/>
+
+    <EditText
+        android:id="@+id/edtMaNVLog"
+        android:background="@drawable/shape_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lo_height_edt_employee_code_login"
+        android:padding="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/margin_top_login"
+        android:drawableLeft="@drawable/user_icon"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/imgLogin"
+        android:layout_alignParentStart="true"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etPassLogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_gravity="center"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#f0f"
+        android:layout_below="@+id/edtMaNVLog"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/edtPassLog"
+            android:background="@drawable/shape_edit_text"
+            android:drawableStart="@drawable/password2_icon"
+            android:inputType="textPassword"
+            android:padding="@dimen/ten_dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lo_height_edt_employee_code_login"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@drawable/shape_button"
+        android:layout_width="@dimen/lo_width_height_img_login"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_size_login_ac"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_btn"
+        android:layout_below="@+id/etPassLogLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_login"
+        android:text="@string/btnLogin"/>
+
+    <TextView
+        android:id="@+id/txtSign"
+        android:textSize="@dimen/txt_size_login_ac"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_txt_login_ac"
+        android:text="@string/txtSign"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

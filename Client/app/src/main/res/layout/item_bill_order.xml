@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_bill_order"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lo_height_linear_bill_order">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lo_height_linear_bill_order"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/txt_name_bill_order"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_top_img_ac_order"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/ten_dp"
+                android:text="@string/name_food"
+                android:textSize="@dimen/txt_size_ac_reg"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_top_img_ac_order">
+
+                <TextView
+                    android:id="@+id/txt_cost_bill_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/margin_top_img_ac_order"
+                    android:layout_weight="0.05"
+                    android:gravity="left|center"
+                    android:paddingLeft="@dimen/ten_dp"
+                    android:text="@string/cost_food"
+                    android:textSize="@dimen/txt_size_ac_reg"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/txtVND"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/margin_top_img_ac_order"
+                    android:layout_weight="9"
+                    android:gravity="left|center"
+                    android:text=" VND"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp"
+                    android:gravity="right">
+
+                    <Button
+                        android:id="@+id/btn_send_item_food"
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/color_dark_green"
+                        android:text="@string/btn_send_food_item"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="right|center"
+                        android:text="@string/quantum"
+                        android:textSize="@dimen/txt_size_login_ac"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edt_quantum_bill_order"
+                        android:layout_width="@dimen/lo_width_edt_card_view"
+                        android:layout_height="@dimen/margin_top_txt_ac_logo"
+                        android:layout_marginLeft="@dimen/five_dp"
+                        android:layout_marginRight="@dimen/five_dp"
+                        android:paddingTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/quantum_food"
+                        android:textSize="@dimen/txt_size_edt_card_view"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="8"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/margin_top_txt_login_ac">
+
+                    <Button
+                        android:id="@+id/btn_plus_bill_order"
+                        android:layout_width="@dimen/margin_top_img_ac_logo"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/plus" />
+
+                    <Button
+                        android:id="@+id/btn_minus_bill_order"
+                        android:layout_width="@dimen/margin_top_img_ac_logo"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/minus" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

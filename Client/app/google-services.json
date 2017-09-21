@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "482583951381",
+    "firebase_url": "https://orderfoodapp-d5683.firebaseio.com",
+    "project_id": "orderfoodapp-d5683",
+    "storage_bucket": "orderfoodapp-d5683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482583951381:android:86b99bb24ea3149d",
+        "android_client_info": {
+          "package_name": "com.example.vuphi.orderfoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482583951381-s4314cat3tbh09diqs226odr15ejdd4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR1z0zDy1SjuLqJKf89zVpSAGB96FlBBc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/background_nav_header"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/lo_height_nav_header">
+
+    <ImageView
+        android:id="@+id/img_welcome_to"
+        android:src="@drawable/welcome_to"
+        android:layout_width="@dimen/width_height_img_cv_home_ac"
+        android:layout_height="@dimen/margin_top_txt_ac_logo"
+        android:layout_alignBottom="@+id/txtNameRestaurant"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_bot_img_nav_header"/>
+    <ImageView
+        android:id="@+id/img_avatar_nav"
+        android:src="@drawable/avatar_nav"
+        android:layout_width="@dimen/width_height_img_nav_header"
+        android:layout_height="@dimen/width_height_img_nav_header"
+        android:layout_marginStart="@dimen/margin_top_txt_login_ac"
+        android:layout_marginBottom="@dimen/margin_top_login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/txtNameRestaurant"
+        android:text="@string/name_restaurant"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_nav_header"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bot_img_nav_header"
+        android:layout_above="@+id/img_avatar_nav"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtMaNV"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_ac_reg"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:paddingLeft="@dimen/margin_bot_img_nav_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNameNav"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/img_avatar_nav"/>
+
+    <TextView
+        android:id="@+id/txtNameNav"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_login_ac"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:paddingLeft="@dimen/ten_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ten_dp"
+        android:layout_alignBottom="@+id/img_avatar_nav"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/img_avatar_nav"/>
+
+</RelativeLayout>

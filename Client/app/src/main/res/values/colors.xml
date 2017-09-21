@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+    <color name="bgr_button">#2194dc</color>
+    <color name="color_text_btn">#FFF</color>
+    <color name="color_txt_notice_pass">#f43913</color>
+    <color name="purple">#4a31d4</color>
+    <color name="color_linear_layout_trang_chu">#8e15ea</color>
+    <color name="color_bgr_img_card_view">#00bfff</color>
+    <color name="color_green">#15ccbc</color>
+    <color name="color_dark_green">#0b8379</color>
+    <color name="yellow">#ffff00</color>
+</resources>
